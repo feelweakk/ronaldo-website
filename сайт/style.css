@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-family: Arial;
+    font-size: 16px;
+    color: lightgray;
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 28px;
+    color: orange;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 22px;
+    color: orange;
+    text-align: left;
+}
+
+ul {
+    margin: 10px;
+    padding-left: 20px;
+}
+
+li {
+    font-family: Arial;
+    font-size: 16px;
+    color: lightgray;
+    margin: 5px;
+}
+
+img {
+    border: 2px solid orange;
+    margin: 10px;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
