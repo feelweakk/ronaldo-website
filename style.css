@@ -1,4 +1,4 @@
-/* ===== Переменные: цвета и шрифты в одном месте ===== */
+/* ===== Variables: colours and fonts in one place ===== */
 :root {
     --bg: #0b0b0f;
     --card: #16161d;
@@ -22,7 +22,7 @@ a:hover { text-decoration: underline; }
 
 .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
 
-/* ===== Шапка и меню ===== */
+/* ===== Header and menu ===== */
 header {
     position: sticky; top: 0; z-index: 10;
     background: rgba(11, 11, 15, 0.85);
@@ -36,7 +36,7 @@ nav { display: flex; justify-content: space-between; align-items: center; height
 .menu a { color: var(--muted); font-weight: 600; }
 .menu a:hover, .menu a.active { color: var(--accent); text-decoration: none; }
 
-/* ===== Главный экран ===== */
+/* ===== Hero ===== */
 .hero {
     display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center;
     padding: 72px 0 56px;
@@ -53,13 +53,13 @@ nav { display: flex; justify-content: space-between; align-items: center; height
 }
 .btn:hover { text-decoration: none; opacity: 0.9; }
 
-/* ===== Цифры ===== */
+/* ===== Stats ===== */
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 56px; }
 .stat { background: var(--card); border-radius: var(--radius); padding: 20px; text-align: center; }
 .stat b { display: block; font-size: 32px; color: var(--accent); }
 .stat span { color: var(--muted); font-size: 14px; }
 
-/* ===== Секции ===== */
+/* ===== Sections ===== */
 section { margin-bottom: 56px; }
 h2 { font-size: 28px; margin-bottom: 20px; }
 h2::before {
@@ -73,7 +73,7 @@ h2::before {
 .card p { color: var(--muted); }
 .card img { width: 100%; border-radius: 12px; margin-top: 12px; }
 
-/* ===== Таймлайн клубов ===== */
+/* ===== Club timeline ===== */
 .timeline { list-style: none; border-left: 2px solid #2a2a35; padding-left: 24px; }
 .timeline li { position: relative; margin-bottom: 24px; }
 .timeline li::before {
@@ -83,13 +83,13 @@ h2::before {
 .timeline .years { color: var(--accent); font-weight: 700; font-size: 14px; }
 .timeline p { color: var(--muted); }
 
-/* ===== Подвал ===== */
+/* ===== Footer ===== */
 footer {
     border-top: 1px solid #23232c; padding: 28px 0;
     color: var(--muted); font-size: 14px; text-align: center;
 }
 
-/* ===== Адаптив для телефонов ===== */
+/* ===== Phones ===== */
 @media (max-width: 720px) {
     .hero { grid-template-columns: 1fr; padding-top: 40px; }
     .stats { grid-template-columns: repeat(2, 1fr); }
